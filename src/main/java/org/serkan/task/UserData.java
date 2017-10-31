@@ -14,7 +14,7 @@ public class UserData {
 		this.userName = userName;
 	}
 	
-	private Stack<LogLine> userStack = new Stack<LogLine>();
+	private Stack<LogLine> userStack = new Stack<LogLine>(); //stack kullanma haci kimse tavsiye etmiyor java'nin stack sinifini
 	
 	public void calculateLeftOvers(LocalTime max, LocalTime min) {
 		while (!this.userStack.empty()) {
